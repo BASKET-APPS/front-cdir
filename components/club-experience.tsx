@@ -54,6 +54,8 @@ export default function ClubExperience({ children }: { children: ReactNode }) {
       const range = document.documentElement.scrollHeight - window.innerHeight;
       container.style.setProperty('--scroll-progress', String(range > 0 ? window.scrollY / range : 0));
       header.classList.toggle('scrolled', window.scrollY > 35);
+      const footer=container.querySelector('.site-footer');
+      container.classList.toggle('footer-visible',!!footer && footer.getBoundingClientRect().top < window.innerHeight);
       frame = 0;
     };
     const onScroll = () => { if (!frame) frame = requestAnimationFrame(updateScroll); };
