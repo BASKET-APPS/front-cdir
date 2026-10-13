@@ -1,4 +1,4 @@
-import {registrations,fieldError,visibleField} from '../../../lib/registration';
+import {registrations,fieldError,visibleField} from '../lib/registration';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
 const upstream='https://cdir.es/wp-admin/admin-ajax.php';

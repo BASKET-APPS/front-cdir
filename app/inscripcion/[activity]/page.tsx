@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import Link from 'next/link';
 import {notFound} from 'next/navigation';
 import RegistrationForm from '../../../components/registration-form';

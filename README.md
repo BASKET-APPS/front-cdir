@@ -1,3 +1,20 @@
+# Publicación del mockup en GitHub Pages
+
+La raíz del repositorio Git es esta carpeta `front-cdir` (no la carpeta padre `CDIR-WEB`). El workflow `.github/workflows/deploy.yml` se ejecuta en pushes a `main` o manualmente; usa Node.js 20.x, `npm ci`, caché npm/Next y las acciones oficiales de Pages. No se ha publicado desde esta sesión.
+
+1. Sube los cambios al repositorio de GitHub **front-cdir**.
+2. En **Settings → Pages → Build and deployment → Source**, elige **GitHub Actions**.
+3. Ejecuta el workflow o haz push a `main`.
+4. La dirección será `https://<usuario>.github.io/front-cdir/`.
+
+`next.config.ts` usa `output: 'export'`, `basePath: '/front-cdir'`, `trailingSlash: true` e imágenes sin optimización de servidor. No necesita `assetPrefix`: Next ya aplica `basePath` a `_next`. Los componentes de imágenes/enlaces HTML aplican el prefijo a los recursos públicos y anclas internas; `next/link` lo aplica automáticamente. Fuentes y fondos CSS también están prefijados. Si cambia el nombre del repositorio, actualiza configuración, `lib/site-path.ts`, CSS, icono y scripts de prueba/preview.
+
+`npm run build` genera `out/`. El postbuild añade alias de los segmentos estáticos para corregir los separadores de Windows en Next 16.4; en Linux no modifica los nombres ya correctos. `npm start` sirve esa exportación en `http://127.0.0.1:3000/front-cdir/`. `npm run test:pages` revisa todos los HTML/CSS exportados y sus enlaces/recursos locales; se ejecuta también en Actions.
+
+**Compatibilidad:** todas las rutas variables tienen `generateStaticParams` y `dynamicParams: false`. No se usan cookies/headers de servidor, Server Actions ni SSR dinámico. El consentimiento de cookies funciona en el navegador. La ruta POST de inscripción, incompatible con Pages, se conserva en `server/registration-route.ts`, fuera de `app/`; sus pruebas simuladas se mantienen. No se incluye en `out`. Para recuperar envíos reales habrá que alojarla en un servidor y conectar el frontal; no se debe exponer una inscripción ficticia como recibida. Los formularios del mockup están señalizados y no realizan peticiones al sistema del club.
+
+---
+
 # CDIR · Aquí jugamos todos
 
 Frontal en Next.js App Router, React y TypeScript para el Club Deportivo Inclusivo Rozasbasket. Propuesta local; no sustituye todavía la web publicada.
@@ -11,7 +28,7 @@ npm install
 npm run dev
 ```
 
-Abrir http://127.0.0.1:3000. Para producción: `npm run build` y después `npm start`.
+Abrir http://127.0.0.1:3000/front-cdir/. Para producción: `npm run build` y después `npm start`.
 
 ## Arquitectura
 
@@ -23,7 +40,7 @@ Abrir http://127.0.0.1:3000. Para producción: `npm run build` y después `npm s
 
 ## Experiencia
 
-Portada animada, navegación fija, progreso de lectura, actividades filtrables, presentación inclusiva del club, campus y eventos, revista, redes, colaboración y un recorrido de tres pasos para unirse. Las solicitudes se completan en formularios nativos de Next.js y se remiten al sistema existente de NEX-Forms del club.
+Portada animada, navegación fija, progreso de lectura, actividades filtrables, presentación inclusiva del club, campus y eventos, revista, redes, colaboración y un recorrido de tres pasos para unirse. Los formularios nativos funcionan como demostración en GitHub Pages: validan y permiten revisar datos ficticios, sin enviar solicitudes.
 
 ## Pendiente para publicar
 
