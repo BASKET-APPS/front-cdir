@@ -1,0 +1,1259 @@
+{
+  "federados": {
+    "key": "federados",
+    "slug": "equipos-federados",
+    "title": "Equipos federados",
+    "formId": "83",
+    "source": "https://cdir.es/equipos-federados/",
+    "hidden": {
+      "nex_forms_Id": "83",
+      "page": "/equipos-federados/",
+      "nf_page_id": "16616",
+      "nf_page_title": "EQUIPOS FEDERADOS"
+    },
+    "fields": [
+      {
+        "id": "10",
+        "raw": "nombre_del_jugadora",
+        "label": "Nombre del jugador/a",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "9",
+        "raw": "apellidos_del_jugadora",
+        "label": "Apellidos del jugador/a",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "12",
+        "raw": "fecha_de_nacimiento_del_jugadora",
+        "label": "Fecha de nacimiento del jugador/a",
+        "type": "date",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "8",
+        "raw": "centro_escolar",
+        "label": "Centro escolar",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "11",
+        "raw": "¿el_jugadora_está_empadronado_en_las_rozas",
+        "label": "¿El jugador/a está empadronado en Las Rozas?",
+        "type": "radio",
+        "required": false,
+        "options": [
+          {
+            "value": "Sí",
+            "label": "Sí"
+          },
+          {
+            "value": "No",
+            "label": "No"
+          }
+        ],
+        "step": "player"
+      },
+      {
+        "id": "0",
+        "raw": "nombre_del_padremadretutor_legal",
+        "label": "Nombre y apellidos del padre/madre/tutor legal",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "1",
+        "raw": "nº_dni_del_padremadretutor_legal",
+        "label": "Nº DNI del padre/madre/tutor legal",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "17",
+        "raw": "nº_de_dni",
+        "label": "DNI del jugador/a",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "2",
+        "raw": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "3",
+        "raw": "teléfono_del_padremadretutor_legal_1",
+        "label": "Teléfono del padre/madre/tutor legal 1",
+        "type": "tel",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "4",
+        "raw": "teléfono_del_padremadretutor_legal_2",
+        "label": "Teléfono del padre/madre/tutor legal 2",
+        "type": "tel",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "5",
+        "raw": "domicilio",
+        "label": "Domicilio",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "6",
+        "raw": "código_postal",
+        "label": "Código postal",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "7",
+        "raw": "población",
+        "label": "Población",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "13",
+        "raw": "modalidad_de_pago",
+        "label": "Modalidad de pago",
+        "type": "radio",
+        "required": true,
+        "options": [
+          {
+            "value": "banco",
+            "label": "Domiciliación bancaria"
+          },
+          {
+            "value": "efectivo",
+            "label": "Efectivo"
+          }
+        ],
+        "step": "payment"
+      },
+      {
+        "id": "14",
+        "raw": "titular_de_la_cuenta",
+        "label": "Titular de la cuenta",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "payment",
+        "condition": "bank"
+      },
+      {
+        "id": "15",
+        "raw": "nº_de_cuenta",
+        "label": "IBAN de la cuenta",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "kind": "iban",
+        "step": "payment",
+        "condition": "bank"
+      },
+      {
+        "id": "20",
+        "raw": "autorizo_recibos",
+        "label": "Autorizo la domiciliación de las cuotas del club",
+        "type": "radio",
+        "required": true,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "debit",
+        "step": "payment",
+        "condition": "bank"
+      },
+      {
+        "id": "16",
+        "raw": "adjuntar_foto_de_la_cara_del_jugadora",
+        "label": "Adjuntar foto de la cara del jugador/a",
+        "type": "file",
+        "required": false,
+        "options": [],
+        "accept": ".jpg,.jpeg,.png,.pdf",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "18",
+        "raw": "adjuntar_dni_del_jugadora_anverso",
+        "label": "Adjuntar DNI del jugador/a anverso",
+        "type": "file",
+        "required": false,
+        "options": [],
+        "accept": ".jpg,.jpeg,.png,.pdf",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "19",
+        "raw": "adjuntar_dni_del_jugadora_reverso",
+        "label": "Adjuntar DNI del jugador/a reverso",
+        "type": "file",
+        "required": false,
+        "options": [],
+        "accept": ".jpg,.jpeg,.png,.pdf",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "21",
+        "raw": "captacion_de_imagenes",
+        "label": "Autorizo la captación y publicación de imágenes en los medios del club",
+        "type": "radio",
+        "required": false,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "images",
+        "step": "confirm"
+      },
+      {
+        "id": "22",
+        "raw": "politica_de_privacidad",
+        "label": "He leído y acepto la política de privacidad",
+        "type": "radio",
+        "required": true,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "privacy",
+        "step": "confirm"
+      }
+    ],
+    "steps": [
+      "player",
+      "family",
+      "payment",
+      "documents",
+      "confirm"
+    ]
+  },
+  "escuela": {
+    "key": "escuela",
+    "slug": "escuela-base-2",
+    "title": "Escuela base",
+    "formId": "84",
+    "source": "https://cdir.es/escuela-base-2/",
+    "hidden": {
+      "nex_forms_Id": "84",
+      "page": "/escuela-base-2/",
+      "nf_page_id": "7737",
+      "nf_page_title": "ESCUELA-BASE"
+    },
+    "fields": [
+      {
+        "id": "0",
+        "raw": "nombre",
+        "label": "Nombre",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "1",
+        "raw": "_apellidos",
+        "label": "Apellidos",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "12",
+        "raw": "año_de_nacimiento",
+        "label": "Año de nacimiento",
+        "type": "select",
+        "required": true,
+        "options": [
+          {
+            "value": "2022",
+            "label": "2022"
+          },
+          {
+            "value": "2021",
+            "label": "2021"
+          },
+          {
+            "value": "2020",
+            "label": "2020"
+          },
+          {
+            "value": "2019",
+            "label": "2019"
+          },
+          {
+            "value": "2018",
+            "label": "2018"
+          },
+          {
+            "value": "2017",
+            "label": "2017"
+          },
+          {
+            "value": "2016",
+            "label": "2016"
+          },
+          {
+            "value": "2015",
+            "label": "2015"
+          }
+        ],
+        "step": "player"
+      },
+      {
+        "id": "2",
+        "raw": "_dni",
+        "label": "DNI del participante o de su tutor",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "hint": "Si el niño o niña no tiene DNI, introduce el de su padre, madre o tutor.",
+        "step": "player"
+      },
+      {
+        "id": "9",
+        "raw": "centro_escolar",
+        "label": "Centro escolar del niño/a",
+        "type": "text",
+        "required": false,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "13",
+        "raw": "días_y_sede_para_la_escuela_base[]",
+        "label": "Días y sede para la Escuela base",
+        "type": "select",
+        "required": true,
+        "options": [
+          {
+            "value": "Viernes - 17:30 - IES Carmen Conde",
+            "label": "Viernes - 17:30 - IES Carmen Conde"
+          }
+        ],
+        "step": "player"
+      },
+      {
+        "id": "14",
+        "raw": "patologías",
+        "label": "Patologías",
+        "type": "textarea",
+        "required": false,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "3",
+        "raw": "nombre_y_apellidos_del_padremadre",
+        "label": "Nombre y apellidos del padre/madre",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "4",
+        "raw": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "5",
+        "raw": "teléfono",
+        "label": "Teléfono",
+        "type": "tel",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "6",
+        "raw": "domicilio",
+        "label": "Domicilio",
+        "type": "text",
+        "required": false,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "7",
+        "raw": "código_postal",
+        "label": "Código postal",
+        "type": "text",
+        "required": false,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "8",
+        "raw": "ciudad",
+        "label": "Ciudad",
+        "type": "text",
+        "required": false,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "10",
+        "raw": "captacion_imagenes",
+        "label": "Autorizo la captación y publicación de imágenes en los medios del club",
+        "type": "radio",
+        "required": false,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "images",
+        "step": "confirm"
+      },
+      {
+        "id": "11",
+        "raw": "privacy-acceptance",
+        "label": "He leído y acepto la política de privacidad",
+        "type": "radio",
+        "required": true,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "privacy",
+        "step": "confirm"
+      }
+    ],
+    "steps": [
+      "player",
+      "family",
+      "confirm"
+    ]
+  },
+  "municipales": {
+    "key": "municipales",
+    "slug": "equipos-municipales",
+    "title": "Equipos municipales",
+    "formId": "48",
+    "source": "https://cdir.es/equipos-municipales/",
+    "hidden": {
+      "nex_forms_Id": "48",
+      "page": "/equipos-municipales/",
+      "nf_page_id": "16613",
+      "nf_page_title": "EQUIPOS MUNICIPALES"
+    },
+    "fields": [
+      {
+        "id": "9",
+        "raw": "nombre_del_jugadora",
+        "label": "Nombre del jugador/a",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "10",
+        "raw": "fecha_de_nacimiento_del_jugadora",
+        "label": "Fecha de nacimiento del jugador/a",
+        "type": "date",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "8",
+        "raw": "centro_escolar",
+        "label": "Centro escolar",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "0",
+        "raw": "nombre_del_padremadretutor_legal",
+        "label": "Nombre del padre/madre/tutor legal",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "1",
+        "raw": "nº_dni_del_padremadretutor_legal",
+        "label": "Nº DNI del padre/madre/tutor legal",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "2",
+        "raw": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "3",
+        "raw": "teléfono_del_padremadretutor_legal_1",
+        "label": "Teléfono del padre/madre/tutor legal 1",
+        "type": "tel",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "4",
+        "raw": "teléfono_del_padremadretutor_legal_2",
+        "label": "Teléfono del padre/madre/tutor legal 2",
+        "type": "tel",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "5",
+        "raw": "domicilio",
+        "label": "Domicilio",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "6",
+        "raw": "código_postal",
+        "label": "Código postal",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "7",
+        "raw": "población",
+        "label": "Población",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "11",
+        "raw": "adjuntar_foto_de_la_cara_del_jugadora",
+        "label": "Adjuntar foto de la cara del jugador/a",
+        "type": "file",
+        "required": true,
+        "options": [],
+        "accept": ".jpg,.jpeg,.png,.pdf",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "12",
+        "raw": "adjuntar_dni_del_jugadora_anverso",
+        "label": "Adjuntar DNI del jugador/a anverso",
+        "type": "file",
+        "required": true,
+        "options": [],
+        "accept": ".jpg,.jpeg,.png,.pdf",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "13",
+        "raw": "adjuntar_dni_del_jugadora_reverso",
+        "label": "Adjuntar DNI del jugador/a reverso",
+        "type": "file",
+        "required": true,
+        "options": [],
+        "accept": ".jpg,.jpeg,.png,.pdf",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "14",
+        "raw": "adjuntar_documento_de_reconocimiento_médicodescarga_el_documento_en_este_enlace_fírmalo_y_adjúntalo_al_formulario",
+        "label": "Adjuntar documento de reconocimiento médico",
+        "type": "file",
+        "required": true,
+        "options": [],
+        "accept": ".pdf,.jpg,.jpeg,.png,.doc,.docx",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "15",
+        "raw": "adjuntar_documentos_para_la_domiciliación_de_cuotasdescarga_el_documento_en_este_enlace_fírmalo_y_adjúntalo_al_formulario",
+        "label": "Adjuntar documentos para la domiciliación de cuotas",
+        "type": "file",
+        "required": true,
+        "options": [],
+        "accept": ".pdf,.jpg,.jpeg,.png,.doc,.docx",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "16",
+        "raw": "super_select",
+        "label": "Autorizo la captación y publicación de imágenes en los medios del club",
+        "type": "radio",
+        "required": false,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "images",
+        "step": "confirm"
+      },
+      {
+        "id": "17",
+        "raw": "super_select",
+        "label": "He leído y acepto la política de privacidad",
+        "type": "radio",
+        "required": true,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "privacy",
+        "step": "confirm"
+      }
+    ],
+    "steps": [
+      "player",
+      "family",
+      "documents",
+      "confirm"
+    ]
+  },
+  "ies": {
+    "key": "ies",
+    "slug": "equipo-ies-carmen-conde",
+    "title": "IES Carmen Conde",
+    "formId": "73",
+    "source": "https://cdir.es/equipo-ies-carmen-conde/",
+    "hidden": {
+      "nex_forms_Id": "73",
+      "page": "/equipo-ies-carmen-conde/",
+      "nf_page_id": "17221",
+      "nf_page_title": "EQUIPO IES CARMEN CONDE"
+    },
+    "fields": [
+      {
+        "id": "10",
+        "raw": "nombre_del_jugadora",
+        "label": "Nombre del jugador/a",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "9",
+        "raw": "apellidos_del_jugadora",
+        "label": "Apellidos del jugador/a",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "11",
+        "raw": "fecha_de_nacimiento_del_jugadora",
+        "label": "Fecha de nacimiento del jugador/a",
+        "type": "date",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "8",
+        "raw": "centro_escolar",
+        "label": "Centro escolar",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "player"
+      },
+      {
+        "id": "13",
+        "raw": "¿el_jugadora_está_empadronado_en_las_rozas",
+        "label": "¿El jugador/a está empadronado en Las Rozas?",
+        "type": "radio",
+        "required": false,
+        "options": [
+          {
+            "value": "Sí",
+            "label": "Sí"
+          },
+          {
+            "value": "No",
+            "label": "No"
+          }
+        ],
+        "step": "player"
+      },
+      {
+        "id": "0",
+        "raw": "nombre_del_padremadretutor_legal",
+        "label": "Nombre del padre/madre/tutor legal",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "1",
+        "raw": "nº_dni_del_padremadretutor_legal",
+        "label": "Nº DNI del padre/madre/tutor legal",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "2",
+        "raw": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "3",
+        "raw": "teléfono_del_padremadretutor_legal_1",
+        "label": "Teléfono del padre/madre/tutor legal 1",
+        "type": "tel",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "4",
+        "raw": "teléfono_del_padremadretutor_legal_2",
+        "label": "Teléfono del padre/madre/tutor legal 2",
+        "type": "tel",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "5",
+        "raw": "domicilio",
+        "label": "Domicilio",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "6",
+        "raw": "código_postal",
+        "label": "Código postal",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "7",
+        "raw": "población",
+        "label": "Población",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "12",
+        "raw": "dni_del_jugadora",
+        "label": "DNI del jugador/a",
+        "type": "file",
+        "required": false,
+        "options": [],
+        "accept": ".jpg,.jpeg,.png,.pdf",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "14",
+        "raw": "adjuntar_documentos_para_la_domiciliación_de_cuotasdescarga_el_documento_en_este_enlace_fírmalo_y_adjúntalo_al_formulario",
+        "label": "Adjuntar documentos para la domiciliación de cuotas",
+        "type": "file",
+        "required": true,
+        "options": [],
+        "accept": ".pdf,.jpg,.jpeg,.png,.doc,.docx",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "15",
+        "raw": "super_select",
+        "label": "Autorizo la captación y publicación de imágenes en los medios del club",
+        "type": "radio",
+        "required": false,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "images",
+        "step": "confirm"
+      },
+      {
+        "id": "16",
+        "raw": "super_select",
+        "label": "He leído y acepto la política de privacidad",
+        "type": "radio",
+        "required": true,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "privacy",
+        "step": "confirm"
+      }
+    ],
+    "steps": [
+      "player",
+      "family",
+      "documents",
+      "confirm"
+    ]
+  },
+  "mecenas": {
+    "key": "mecenas",
+    "slug": "mecenas",
+    "title": "Mecenazgo",
+    "formId": "20",
+    "source": "https://cdir.es/mecenas/",
+    "hidden": {
+      "nex_forms_Id": "20",
+      "page": "/mecenas/",
+      "nf_page_id": "8912",
+      "nf_page_title": "Mecenas",
+      "math_result": "0"
+    },
+    "fields": [
+      {
+        "id": "0",
+        "raw": "nombre",
+        "label": "Nombre",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "1",
+        "raw": "_apellidos",
+        "label": "Apellidos",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "2",
+        "raw": "_dni",
+        "label": "DNI",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "3",
+        "raw": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "4",
+        "raw": "teléfono",
+        "label": "Teléfono",
+        "type": "tel",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "5",
+        "raw": "domicilio",
+        "label": "Domicilio",
+        "type": "text",
+        "required": false,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "6",
+        "raw": "código_postal",
+        "label": "Código postal",
+        "type": "text",
+        "required": false,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "7",
+        "raw": "ciudad",
+        "label": "Ciudad",
+        "type": "text",
+        "required": false,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "8",
+        "raw": "undefined[]",
+        "label": "Documento de domiciliación firmado",
+        "type": "file",
+        "required": true,
+        "options": [],
+        "accept": ".pdf,.jpg,.jpeg,.png,.doc,.docx",
+        "hint": "JPG, PNG o PDF. Hasta 5 MB por archivo.",
+        "step": "documents"
+      },
+      {
+        "id": "9",
+        "raw": "privacy-acceptance",
+        "label": "He leído y acepto la política de privacidad",
+        "type": "radio",
+        "required": true,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "privacy",
+        "step": "confirm"
+      }
+    ],
+    "steps": [
+      "family",
+      "documents",
+      "confirm"
+    ]
+  },
+  "contacto-jugador": {
+    "key": "contacto-jugador",
+    "slug": "contact-us",
+    "title": "Quiero entrenar en CDIR",
+    "formId": "34",
+    "source": "https://cdir.es/contact-us/",
+    "hidden": {
+      "nex_forms_Id": "34",
+      "page": "/contact-us/",
+      "nf_page_id": "14",
+      "nf_page_title": "CONTACTO"
+    },
+    "fields": [
+      {
+        "id": "0",
+        "raw": "nombre",
+        "label": "Nombre y apellidos del jugador",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "4",
+        "raw": "email",
+        "label": "Email de contacto",
+        "type": "email",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "5",
+        "raw": "teléfono",
+        "label": "Móvil de contacto",
+        "type": "tel",
+        "required": false,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "1",
+        "raw": "nacimiento",
+        "label": "Año de nacimiento",
+        "type": "text",
+        "required": false,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "2",
+        "raw": "club",
+        "label": "Club y/o colegio donde juega",
+        "type": "text",
+        "required": false,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "3",
+        "raw": "nombre_tutor",
+        "label": "Nombre padre/madre/tutor",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "8",
+        "raw": "consulta",
+        "label": "¡Cuéntanos más sobre ti!",
+        "type": "textarea",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "6",
+        "raw": "privacy-acceptance",
+        "label": "He leído y acepto la política de privacidad",
+        "type": "radio",
+        "required": true,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "privacy",
+        "step": "confirm"
+      },
+      {
+        "id": "7",
+        "raw": "notifications-acceptance",
+        "label": "Quiero recibir información sobre eventos y noticias",
+        "type": "radio",
+        "required": false,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "step": "confirm",
+        "kind": "news"
+      }
+    ],
+    "steps": [
+      "family",
+      "confirm"
+    ]
+  },
+  "contacto": {
+    "key": "contacto",
+    "slug": "contact-us",
+    "title": "Consulta al club",
+    "formId": "15",
+    "source": "https://cdir.es/contact-us/",
+    "hidden": {
+      "nex_forms_Id": "15",
+      "page": "/contact-us/",
+      "nf_page_id": "14",
+      "nf_page_title": "CONTACTO"
+    },
+    "fields": [
+      {
+        "id": "0",
+        "raw": "nombre",
+        "label": "Tu nombre",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "1",
+        "raw": "email",
+        "label": "Email de contacto",
+        "type": "email",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "2",
+        "raw": "teléfono",
+        "label": "Móvil de contacto",
+        "type": "tel",
+        "required": false,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "5",
+        "raw": "consulta",
+        "label": "¿En qué podemos ayudarte?",
+        "type": "textarea",
+        "required": true,
+        "options": [],
+        "step": "family"
+      },
+      {
+        "id": "3",
+        "raw": "privacy-acceptance",
+        "label": "He leído y acepto la política de privacidad",
+        "type": "radio",
+        "required": true,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "kind": "privacy",
+        "step": "confirm"
+      },
+      {
+        "id": "4",
+        "raw": "notifications-acceptance",
+        "label": "Quiero recibir información sobre eventos y noticias",
+        "type": "radio",
+        "required": false,
+        "options": [
+          {
+            "value": "Si",
+            "label": "Sí"
+          },
+          {
+            "value": "0",
+            "label": "No"
+          }
+        ],
+        "step": "confirm",
+        "kind": "news"
+      }
+    ],
+    "steps": [
+      "family",
+      "confirm"
+    ]
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "forms": [
+    {
+      "id": "48",
+      "class": "submit-nex-form nex-forms-48",
+      "data-form-id": "48",
+      "name": "nex_form",
+      "action": "https://cdir.es/wp-admin/admin-ajax.php",
+      "method": "post",
+      "enctype": "multipart/form-data"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "nex_forms_Id",
+      "value": "48"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "page",
+      "value": "/equipos-municipales/"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "ip",
+      "value": "85.56.255.164"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "nf_page_id",
+      "value": "16613"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "nf_page_title",
+      "value": "EQUIPOS MUNICIPALES"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "company_url",
+      "value": "",
+      "placeholder": "enter company url",
+      "class": "form-control req"
+    },
+    {
+      "tag": "input",
+      "class": "ms_current_step",
+      "value": "1",
+      "name": "ms_current_step",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "nombre_del_padremadretutor_legal",
+      "class": "error_message required form-control the_input_element aling_left align_left",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "title": "",
+      "data-secondary-message": "",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "nº_dni_del_padremadretutor_legal",
+      "class": "form-control error_message the_input_element aling_left align_left required",
+      "data-maxlength-color": "label label-success",
+      "data-maxlength-position": "bottom",
+      "data-maxlength-show": "false",
+      "data-default-value": "",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "data-secondary-message": "",
+      "title": "",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "email",
+      "class": "error_message required email form-control the_input_element aling_left align_left",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "title": "",
+      "data-secondary-message": "Invalid email address",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "teléfono_del_padremadretutor_legal_1",
+      "class": "error_message required phone_number form-control the_input_element aling_left align_left",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "title": "",
+      "data-secondary-message": "Invalid phone number",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "teléfono_del_padremadretutor_legal_2",
+      "class": "error_message required phone_number form-control the_input_element aling_left align_left",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "title": "",
+      "data-secondary-message": "Invalid phone number",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "domicilio",
+      "class": "form-control error_message the_input_element aling_left align_left required",
+      "data-maxlength-color": "label label-success",
+      "data-maxlength-position": "bottom",
+      "data-maxlength-show": "false",
+      "data-default-value": "",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "data-secondary-message": "",
+      "title": "",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "código_postal",
+      "class": "form-control error_message the_input_element aling_left align_left required",
+      "data-maxlength-color": "label label-success",
+      "data-maxlength-position": "bottom",
+      "data-maxlength-show": "false",
+      "data-default-value": "",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "data-secondary-message": "",
+      "title": "",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "población",
+      "class": "form-control error_message the_input_element aling_left align_left required",
+      "data-maxlength-color": "label label-success",
+      "data-maxlength-position": "bottom",
+      "data-maxlength-show": "false",
+      "data-default-value": "",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "data-secondary-message": "",
+      "title": "",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "centro_escolar",
+      "class": "form-control error_message the_input_element aling_left align_left required",
+      "data-maxlength-color": "label label-success",
+      "data-maxlength-position": "bottom",
+      "data-maxlength-show": "false",
+      "data-default-value": "",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "data-secondary-message": "",
+      "title": "",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "nombre_del_jugadora",
+      "class": "error_message required form-control the_input_element aling_left align_left",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "title": "",
+      "data-secondary-message": "",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "fecha_de_nacimiento_del_jugadora",
+      "class": "error_message form-control the_input_element aling_left align_left required",
+      "data-onfocus-color": "#66AFE9",
+      "data-drop-focus-swadow": "1",
+      "data-placement": "bottom",
+      "data-content": "Required",
+      "title": "",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "adjuntar_foto_de_la_cara_del_jugadora"
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "adjuntar_dni_del_jugadora_anverso"
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "adjuntar_dni_del_jugadora_reverso"
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "adjuntar_documento_de_reconocimiento_médicodescarga_el_documento_en_este_enlace_fírmalo_y_adjúntalo_al_formulario",
+      "class": "the_input_element align_left required",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "adjuntar_documentos_para_la_domiciliación_de_cuotasdescarga_el_documento_en_este_enlace_fírmalo_y_adjúntalo_al_formulario",
+      "class": "the_input_element align_left required",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "class": "the_input_element align_left",
+      "type": "radio",
+      "name": "super_select",
+      "value": "0",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "class": "the_input_element align_left",
+      "type": "radio",
+      "name": "super_select",
+      "value": "Si",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "class": "the_input_element align_left",
+      "type": "radio",
+      "name": "super_select",
+      "value": "0",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "class": "the_input_element align_left",
+      "type": "radio",
+      "name": "super_select",
+      "value": "Si",
+      "style": "font-size: 13px;color: #9e9e9e;background: white;border-color: #dddddd"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "id": "cmplz-functional-optin",
+      "data-category": "cmplz_functional",
+      "class": "cmplz-consent-checkbox cmplz-functional",
+      "size": "40",
+      "value": "1"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "id": "cmplz-preferences-optin",
+      "data-category": "cmplz_preferences",
+      "class": "cmplz-consent-checkbox cmplz-preferences",
+      "size": "40",
+      "value": "1"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "id": "cmplz-statistics-optin",
+      "data-category": "cmplz_statistics",
+      "class": "cmplz-consent-checkbox cmplz-statistics",
+      "size": "40",
+      "value": "1"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "id": "cmplz-marketing-optin",
+      "data-category": "cmplz_marketing",
+      "class": "cmplz-consent-checkbox cmplz-marketing",
+      "size": "40",
+      "value": "1"
+    }
+  ],
+  "options": [],
+  "scripts": [
+    "https://cdir.es/wp-includes/js/jquery/jquery.min.js,qver=3.7.1.pagespeed.ce.gm63foawKr.js",
+    "https://cdir.es/wp-includes/js/jquery/jquery-migrate.min.js,qver=3.4.1.pagespeed.ce.n_6zLi2e-_.js",
+    "https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js",
+    "https://cdir.es/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js,qver=6.4.1.pagespeed.ce.W4InSO1HJ1.js",
+    "https://cdir.es/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js,qver=1789004980.pagespeed.ce.hBAWO_DIwG.js",
+    "https://cdir.es/wp-includes,_js,_jquery,_ui,_core.min.js,qver==1.14.2+wp-content,_plugins,_nex-forms-premium,_public,_js,_min,_var.js,qver==9.4.1.11.pagespeed.jc.FotIoojcKW.js",
+    "https://cdir.es/wp-includes/js/jquery,_ui,_menu.min.js,qver==1.14.2+dist,_dom-ready.min.js,qver==3fe927cab37bf38d6a23+dist,_hooks.min.js,qver==f0f188028580e8dc1255+dist,_i18n.min.js,qver==1dfe7db3940c23ea9216.pagespeed.jc.6sNzn5SNz5.js",
+    "https://cdir.es/wp-includes,_js,_dist,_a11y.min.js,qver==31c6cec5a4ff7aff483d+wp-includes,_js,_jquery,_ui,_autocomplete.min.js,qver==1.14.2+wp-includes,_js,_jquery,_ui,_mouse.min.js,qver==1.14.2+wp-includes,_js,_jquery,_ui,_slider.min.js,qver==1.14.2+wp-includes,_js,_jquery,_jquery.form.min.js,qver==4.3.0+wp-includes,_js,_jquery,_jquery.ui.touch-punch.js,qver==0.2.2+wp-content,_plugins,_nex-forms-premium,_public,_js,_min,_bs.min.js,qver==9.4.1.11.pagespeed.jc.a14SSP98xa.js",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/libs/wow.min.js,qver=9.4.1.11.pagespeed.ce.9OzEr7TE_w.js",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/public/js/min/jquery.raty-fa.js?ver=9.4.1.11",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/public/js/nexf-onload-ui.js,qver=9.4.1.11.pagespeed.ce.__lbzJojUK.js",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/public/js/min/jquery.inputmask.js?ver=9.4.1.11",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/public/js/min/jquery.sig.js?ver=9.4.1.11",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/public/js/min/jquery.tags.js?ver=9.4.1.11",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/libs/math.min.js?ver=9.4.1.11",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/libs/moment.min.js?ver=9.1.5",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/libs/locales.min.js?ver=9.1.5",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/public/js/bootstrap-datetimepicker.js?ver=9.4.1.11",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/public/js/min/jquery.bootstrap-touchspin.js?ver=9.4.1.11",
+    "https://cdir.es/wp-content/plugins/nex-forms-premium/libs/nex-select.js?ver=9.4.1.11",
+    "https://cdir.es/wp-content/uploads/fusion-scripts/cfa198fe4ca2da1923131d12fc0a6307.min.js?ver=3.16"
+  ]
+}
