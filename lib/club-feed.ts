@@ -1,5 +1,6 @@
 'use client';
 import {useEffect,useState} from 'react';
+import {browserPublicFeed} from './browser-sql';
 // Shared, public-only client cache for /api/public/club.
 // - One request in flight per set of sections (several components or quick re-renders share it).
 // - Each section has its own freshness: results change more often than magazines.
@@ -19,7 +20,7 @@ export function loadSections(origin:string,sections:FeedSection[],matchView:Matc
  const running=inFlight.get(id);if(running)return running;
  const demo=process.env.NEXT_PUBLIC_CDIR_DEMO==='true';
  const request=async()=>{if(demo){try{const saved=localStorage.getItem('cdir-demo-public-feed-v1');if(saved)return JSON.parse(saved);}catch{}const r=await fetch('/cdir-admin-app/demo/public-feed.json');if(!r.ok)throw Error('Demo feed unavailable');return r.json();}const r=await fetch(origin+'/api/public/club?sections='+wanted.join(',')+(matchView==='recent'?'&matchView=recent':''),{cache:'no-cache'});if(!r.ok)throw Error('Feed unavailable');return r.json();};
- const work=request().then((data:Record<string,unknown>)=>{
+ const work=(process.env.NEXT_PUBLIC_CDIR_DIRECT_SQL==='true'?browserPublicFeed():request()).then((data:Record<string,unknown>)=>{
   const at=Date.now();for(const section of Object.keys(SECTION_TTL) as FeedSection[])if(Array.isArray(data?.[section]))store.set(key(origin,section,matchView),{value:data[section],at});notify();
  }).finally(()=>inFlight.delete(id));
  inFlight.set(id,work);return work;

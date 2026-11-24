@@ -1,4 +1,5 @@
 'use client';
+import {publicFirebaseFetch as fetch} from '../lib/public-firebase';
 import {useEffect,useRef,useState} from 'react';
 import type {PDFDocumentLoadingTask,PDFDocumentProxy,RenderTask} from 'pdfjs-dist';
 export type MagazineItem={id:string;title:string;description:string;pdfPath:string;published?:boolean};
