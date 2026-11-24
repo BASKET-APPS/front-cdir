@@ -2,8 +2,8 @@ import {ClubImage,SiteAnchor} from './static-elements';
 import Link from 'next/link';
 export const groups = [
   { title: 'El club', href: '/club', items: [['Nuestra historia', '/club'], ['Salud y bienestar', '/salud'], ['Espacio de familias', '/familias'], ['Baloncesto inclusivo', '/nuestro-club/escuela-o-equipo-de-discapacidad-intelectual'], ['En familia', '/baloncesto-inclusivo-en-familia']] },
-  { title: 'Jugar en CDIR', href: '/actividades', items: [['Todas las actividades', '/actividades'], ['Escuela base', '/escuela-base-2'], ['Equipos federados', '/equipos-federados'], ['Equipos municipales', '/equipos-municipales'], ['IES Carmen Conde', '/equipo-ies-carmen-conde'], ['Entrenamientos personalizados', '/nuestro-club/entrenamientos-personalizados'], ['En primera persona', '/nuestro-club/en-primera-persona']] },
-  { title: 'Campus y eventos', href: '/campus-2', items: [['Campus y tecnificación', '/campus-2'], ['Jornadas en familia', '/eventos'], ['Torneos y viajes', '/torneos'], ['Archivo de actividades', '/archivo']] },
+  { title: 'Jugar en CDIR', href: '/actividades', items: [['Todas las actividades', '/actividades'], ['Escuela base', '/escuela-base-2'], ['Equipos federados', '/equipos-federados'], ['Calendario y resultados', '/calendario'], ['Equipos municipales', '/equipos-municipales'], ['IES Carmen Conde', '/equipo-ies-carmen-conde'], ['Entrenamientos personalizados', '/nuestro-club/entrenamientos-personalizados'], ['En primera persona', '/nuestro-club/en-primera-persona']] },
+  { title: 'Campus y eventos', href: '/eventos', items: [['Agenda del club', '/eventos'], ['Campus y tecnificación', '/campus-2'], ['Torneos y viajes', '/torneos'], ['Archivo de actividades', '/archivo']] },
   { title: 'Novedades', href: '/news', items: [['Noticias del club', '/news'], ['Revistas CDIR', '/revistas'], ['Redes sociales', '/#redes']] },
   { title: 'Colabora', href: '/mecenas', items: [['Hazte mecenas', '/mecenas'], ['Patrocinadores', '/patrocinadores']] },
 ];

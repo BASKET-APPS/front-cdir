@@ -1,0 +1,232 @@
+{
+ "/club/asset-29.jpeg": {
+  "h": 1167,
+  "variants": [
+   {
+    "src": "/club/_v/asset-29-828.jpg",
+    "w": 828
+   },
+   {
+    "src": "/club/_v/asset-29-1240.jpg",
+    "w": 1240
+   }
+  ],
+  "w": 1750
+ },
+ "/club/asset-30.jpeg": {
+  "h": 1149,
+  "variants": [
+   {
+    "src": "/club/_v/asset-30-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1724
+ },
+ "/club/asset-31.jpeg": {
+  "h": 1299,
+  "variants": [
+   {
+    "src": "/club/_v/asset-31-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1949
+ },
+ "/club/asset-34.jpeg": {
+  "h": 1365,
+  "variants": [
+   {
+    "src": "/club/_v/asset-34-828.jpg",
+    "w": 828
+   },
+   {
+    "src": "/club/_v/asset-34-1240.jpg",
+    "w": 1240
+   }
+  ],
+  "w": 2048
+ },
+ "/club/asset-35.jpg": {
+  "h": 1587,
+  "variants": [
+   {
+    "src": "/club/_v/asset-35-828.jpg",
+    "w": 828
+   },
+   {
+    "src": "/club/_v/asset-35-1240.jpg",
+    "w": 1240
+   }
+  ],
+  "w": 2245
+ },
+ "/club/asset-36.jpg": {
+  "h": 1587,
+  "variants": [
+   {
+    "src": "/club/_v/asset-36-828.jpg",
+    "w": 828
+   },
+   {
+    "src": "/club/_v/asset-36-1240.jpg",
+    "w": 1240
+   }
+  ],
+  "w": 2245
+ },
+ "/club/asset-4.jpeg": {
+  "h": 426,
+  "variants": [
+   {
+    "src": "/club/_v/asset-4-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1600
+ },
+ "/club/asset-46.jpg": {
+  "h": 1600,
+  "variants": [
+   {
+    "src": "/club/_v/asset-46-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1600
+ },
+ "/club/asset-54.jpg": {
+  "h": 1080,
+  "variants": [
+   {
+    "src": "/club/_v/asset-54-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1920
+ },
+ "/club/asset-55.jpg": {
+  "h": 1080,
+  "variants": [
+   {
+    "src": "/club/_v/asset-55-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1920
+ },
+ "/club/asset-56.jpg": {
+  "h": 1080,
+  "variants": [
+   {
+    "src": "/club/_v/asset-56-828.jpg",
+    "w": 828
+   },
+   {
+    "src": "/club/_v/asset-56-1240.jpg",
+    "w": 1240
+   }
+  ],
+  "w": 1920
+ },
+ "/club/asset-57.jpg": {
+  "h": 1080,
+  "variants": [
+   {
+    "src": "/club/_v/asset-57-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1920
+ },
+ "/club/asset-58.jpeg": {
+  "h": 1200,
+  "variants": [
+   {
+    "src": "/club/_v/asset-58-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1600
+ },
+ "/club/asset-9.jpeg": {
+  "h": 854,
+  "variants": [
+   {
+    "src": "/club/_v/asset-9-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1600
+ },
+ "/club/more-4.jpg": {
+  "h": 1286,
+  "variants": [
+   {
+    "src": "/club/_v/more-4-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 2048
+ },
+ "/club/more-5.jpg": {
+  "h": 1536,
+  "variants": [
+   {
+    "src": "/club/_v/more-5-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 2048
+ },
+ "/club/more-6.jpg": {
+  "h": 1308,
+  "variants": [
+   {
+    "src": "/club/_v/more-6-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1600
+ },
+ "/club/photo-4.jpg": {
+  "h": 2048,
+  "variants": [
+   {
+    "src": "/club/_v/photo-4-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1536
+ },
+ "/club/photo-7.jpg": {
+  "h": 1536,
+  "variants": [
+   {
+    "src": "/club/_v/photo-7-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 2048
+ },
+ "/club/presentation/page-39-image-0.jpg": {
+  "h": 919,
+  "variants": [
+   {
+    "src": "/club/_v/page-39-image-0-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1379
+ },
+ "/club/presentation/page-5-image-0.jpg": {
+  "h": 864,
+  "variants": [
+   {
+    "src": "/club/_v/page-5-image-0-828.jpg",
+    "w": 828
+   }
+  ],
+  "w": 1536
+ }
+}

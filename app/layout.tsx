@@ -1,3 +1,6 @@
+import './results.css';
+import './club-agenda.css';
+import './magazines.css';
 import {SiteAnchor} from '../components/static-elements';
 import type { Metadata, Viewport } from 'next';
 import './globals.css';

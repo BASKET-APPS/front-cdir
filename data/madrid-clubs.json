@@ -1,0 +1,891 @@
+[
+  {
+    "id": "madrid-1",
+    "name": "ADC Boadilla",
+    "logoUrl": "https://api.clupik.com/clubs/210/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-1.png"
+  },
+  {
+    "id": "madrid-2",
+    "name": "Alcorcón Basket",
+    "logoUrl": "https://api.clupik.com/clubs/201/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-2.png"
+  },
+  {
+    "id": "madrid-3",
+    "name": "Baloncesto Alcalá",
+    "logoUrl": "https://api.clupik.com/clubs/197/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.pintobasket.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-3.png"
+  },
+  {
+    "id": "madrid-4",
+    "name": "Baloncesto Fuenlabrada",
+    "logoUrl": "https://api.clupik.com/clubs/206/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.cbtrescantos.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-4.png"
+  },
+  {
+    "id": "madrid-5",
+    "name": "Baloncesto Leganés",
+    "logoUrl": "https://api.clupik.com/clubs/17752/images/clubTransparent.png",
+    "alternativeLogoUrl": "https://www.fbm.es/imagenes/clubes/17752/logo.jpg",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.cbleganes.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-5.png"
+  },
+  {
+    "id": "madrid-6",
+    "name": "Baloncesto Olympia",
+    "logoUrl": "https://api.clupik.com/clubs/548/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.baskethoyodemanzanares.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-6.png"
+  },
+  {
+    "id": "madrid-7",
+    "name": "Baloncesto Rivas Sureste",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/21149/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-7.png"
+  },
+  {
+    "id": "madrid-8",
+    "name": "Baloncesto Torrelodones (Jansen BT)",
+    "logoUrl": "https://api.clupik.com/clubs/190/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.btorrelodones.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-8.png"
+  },
+  {
+    "id": "madrid-9",
+    "name": "Basket Aranjuez",
+    "logoUrl": "https://api.clupik.com/clubs/31794/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-9.png"
+  },
+  {
+    "id": "madrid-10",
+    "name": "Basket Hoyo de Manzanares",
+    "logoUrl": "https://api.clupik.com/clubs/41594/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.baskethoyodemanzanares.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-10.png"
+  },
+  {
+    "id": "madrid-11",
+    "name": "Basket Torrejón",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6734/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-11.png"
+  },
+  {
+    "id": "madrid-12",
+    "name": "Becerril de la Sierra",
+    "logoUrl": "https://api.clupik.com/clubs/317/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-12.png"
+  },
+  {
+    "id": "madrid-13",
+    "name": "Cabrini APA",
+    "logoUrl": "https://api.clupik.com/clubs/277/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-13.png"
+  },
+  {
+    "id": "madrid-14",
+    "name": "CB Alcobendas / Fundal Alcobendas",
+    "logoUrl": "https://api.clupik.com/clubs/19/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.pintobasket.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-14.png"
+  },
+  {
+    "id": "madrid-15",
+    "name": "CB Alcorcón",
+    "logoUrl": "https://api.clupik.com/clubs/232/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-15.png"
+  },
+  {
+    "id": "madrid-16",
+    "name": "CB Arganda",
+    "logoUrl": "https://api.clupik.com/clubs/191/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.valcudealcobendas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-16.png"
+  },
+  {
+    "id": "madrid-17",
+    "name": "CB Arroyomolinos",
+    "logoUrl": "https://api.clupik.com/clubs/204/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.valcudealcobendas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-17.png"
+  },
+  {
+    "id": "madrid-18",
+    "name": "CB Ciudad de Móstoles",
+    "logoUrl": "https://api.clupik.com/clubs/205/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-18.png"
+  },
+  {
+    "id": "madrid-19",
+    "name": "CB Coslada",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6251/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-19.png"
+  },
+  {
+    "id": "madrid-20",
+    "name": "CB Femenino Alcorcón",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6334/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cblasrozas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-20.png"
+  },
+  {
+    "id": "madrid-21",
+    "name": "CB Femenino Fuenlabrada",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/19871/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbleganes.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-21.png"
+  },
+  {
+    "id": "madrid-22",
+    "name": "CB Getafe",
+    "logoUrl": "https://api.clupik.com/clubs/203/images/clubTransparent.png",
+    "alternativeLogoUrl": "https://www.fbm.es/imagenes/clubes/17744/logo.jpg",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.cbgetafe.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-22.png"
+  },
+  {
+    "id": "madrid-23",
+    "name": "CB Las Rozas",
+    "logoUrl": "https://api.clupik.com/clubs/212/images/clubTransparent.png",
+    "alternativeLogoUrl": "https://www.fbm.es/imagenes/clubes/6246/logo.jpg",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.cblasrozas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-23.png"
+  },
+  {
+    "id": "madrid-24",
+    "name": "CB Majadahonda",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6315/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbgetafe.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-24.png"
+  },
+  {
+    "id": "madrid-25",
+    "name": "CB Olímpico Alcobendas",
+    "logoUrl": "https://api.clupik.com/clubs/216/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.basketveritas.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-25.png"
+  },
+  {
+    "id": "madrid-26",
+    "name": "CB Pizarro",
+    "logoUrl": "https://api.clupik.com/clubs/227/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-26.png"
+  },
+  {
+    "id": "madrid-27",
+    "name": "CB Pozuelo",
+    "logoUrl": "https://api.clupik.com/clubs/199/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-27.png"
+  },
+  {
+    "id": "madrid-28",
+    "name": "CB Recuerdo",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6318/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbtrescantos.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-28.png"
+  },
+  {
+    "id": "madrid-29",
+    "name": "CB San Fernando",
+    "logoUrl": "https://api.clupik.com/clubs/9191/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.urosderivas.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-29.png"
+  },
+  {
+    "id": "madrid-30",
+    "name": "CB Tres Cantos",
+    "logoUrl": "https://api.clupik.com/clubs/195/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.cbtrescantos.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-30.png"
+  },
+  {
+    "id": "madrid-31",
+    "name": "CB Villa de Valdemoro",
+    "logoUrl": "https://api.clupik.com/clubs/288/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-31.png"
+  },
+  {
+    "id": "madrid-32",
+    "name": "CB Zona Press",
+    "logoUrl": "https://api.clupik.com/clubs/455/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.valcudealcobendas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-32.png"
+  },
+  {
+    "id": "madrid-33",
+    "name": "CD Ábaco",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/16983/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbleganes.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-33.png"
+  },
+  {
+    "id": "madrid-34",
+    "name": "CD Caldeiro",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6264/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cdcaldeiro.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-34.png"
+  },
+  {
+    "id": "madrid-35",
+    "name": "CD El Valle",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/15151/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbtrescantos.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-35.png"
+  },
+  {
+    "id": "madrid-36",
+    "name": "CD La Paz",
+    "logoUrl": "https://api.clupik.com/clubs/211/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-36.png"
+  },
+  {
+    "id": "madrid-37",
+    "name": "CD Loreto Madrid",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/20265/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.urosderivas.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-37.png"
+  },
+  {
+    "id": "madrid-38",
+    "name": "CD Newman",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/15954/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbleganes.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-38.png"
+  },
+  {
+    "id": "madrid-39",
+    "name": "CDE Aravaca Basket",
+    "logoUrl": "https://api.clupik.com/clubs/4426/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.cbzentro.com/es/competitions/standings",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-39.png"
+  },
+  {
+    "id": "madrid-40",
+    "name": "CDE Basket Veritas Pozuelo",
+    "logoUrl": "https://api.clupik.com/clubs/194/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.basketveritas.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-40.png"
+  },
+  {
+    "id": "madrid-41",
+    "name": "CDE Femenino Humanes",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/20088/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-41.png"
+  },
+  {
+    "id": "madrid-42",
+    "name": "CDI Rozasbasket",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1585948453686824960/4lEjgfzC_400x400.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "Otra fuente pública",
+    "sourceUrl": "https://x.com/CDIRozasbasket",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-42.png"
+  },
+  {
+    "id": "madrid-43",
+    "name": "Club Deportivo Estudio",
+    "logoUrl": "https://api.clupik.com/clubs/61/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-43.png"
+  },
+  {
+    "id": "madrid-44",
+    "name": "Colegio Alameda de Osuna",
+    "logoUrl": "https://api.clupik.com/clubs/267/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.valcudealcobendas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-44.png"
+  },
+  {
+    "id": "madrid-45",
+    "name": "Colegio Áquila CDB",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/20262/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-45.png"
+  },
+  {
+    "id": "madrid-46",
+    "name": "Colegio Brains Arturo Soria",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6406/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-46.png"
+  },
+  {
+    "id": "madrid-47",
+    "name": "Colegio Buen Consejo",
+    "logoUrl": "https://api.clupik.com/clubs/249/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-47.png"
+  },
+  {
+    "id": "madrid-48",
+    "name": "Colegio Isaac Newton",
+    "logoUrl": "https://api.clupik.com/clubs/229/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-48.png"
+  },
+  {
+    "id": "madrid-49",
+    "name": "Colegio Joyfe",
+    "logoUrl": "https://api.clupik.com/clubs/214/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-49.png"
+  },
+  {
+    "id": "madrid-50",
+    "name": "Colegio Maravillas",
+    "logoUrl": "https://api.clupik.com/clubs/294/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.basketveritas.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-50.png"
+  },
+  {
+    "id": "madrid-51",
+    "name": "Colegio Marianistas Amorós",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6293/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbleganes.es/es/competitions/standings",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-51.png"
+  },
+  {
+    "id": "madrid-52",
+    "name": "Colegio Menesiano",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6297/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-52.png"
+  },
+  {
+    "id": "madrid-53",
+    "name": "Colegio San Agustín Madrid",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6255/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbleganes.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-53.png"
+  },
+  {
+    "id": "madrid-54",
+    "name": "Colegio San José del Parque",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6324/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-54.png"
+  },
+  {
+    "id": "madrid-55",
+    "name": "Colegio Santa María del Pilar",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6298/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-55.png"
+  },
+  {
+    "id": "madrid-56",
+    "name": "Colegio Virgen de Atocha",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6243/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.valcudealcobendas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-56.png"
+  },
+  {
+    "id": "madrid-57",
+    "name": "Colmenar Viejo",
+    "logoUrl": "https://api.clupik.com/clubs/228/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.valcudealcobendas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-57.png"
+  },
+  {
+    "id": "madrid-58",
+    "name": "Corazonistas",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6299/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbleganes.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-58.png"
+  },
+  {
+    "id": "madrid-59",
+    "name": "Distrito Olímpico",
+    "logoUrl": "https://api.clupik.com/clubs/15/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.valcudealcobendas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-59.png"
+  },
+  {
+    "id": "madrid-60",
+    "name": "EMB Torrejón de la Calzada",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/13780/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.valcudealcobendas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-60.png"
+  },
+  {
+    "id": "madrid-61",
+    "name": "Escuela Barrio del Pilar",
+    "logoUrl": "https://api.clupik.com/clubs/234/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.urosderivas.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-61.png"
+  },
+  {
+    "id": "madrid-62",
+    "name": "Halcones Arroyofresno",
+    "logoUrl": "https://api.clupik.com/clubs/252/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.valcudealcobendas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-62.png"
+  },
+  {
+    "id": "madrid-63",
+    "name": "La Torre de Hortaleza",
+    "logoUrl": "https://api.clupik.com/clubs/255/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-63.png"
+  },
+  {
+    "id": "madrid-64",
+    "name": "Liceo Francés",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6291/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbleganes.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-64.png"
+  },
+  {
+    "id": "madrid-65",
+    "name": "Lions Basket Arroyomolinos",
+    "logoUrl": "https://api.clupik.com/clubs/10907/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-65.png"
+  },
+  {
+    "id": "madrid-66",
+    "name": "Madrid Elite Basketball",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/21452/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.urosderivas.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-66.png"
+  },
+  {
+    "id": "madrid-67",
+    "name": "Madrid FSM CDB",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/20684/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-67.png"
+  },
+  {
+    "id": "madrid-68",
+    "name": "Movistar Estudiantes",
+    "logoUrl": "https://cdn.movistarestudiantes.com/wp-content/uploads/2024/07/escudo.png",
+    "alternativeLogoUrl": "",
+    "provider": "Otra fuente pública",
+    "sourceUrl": "https://www.movistarestudiantes.com/tienda/",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)"
+  },
+  {
+    "id": "madrid-69",
+    "name": "Olímpico 64",
+    "logoUrl": "https://api.clupik.com/clubs/20/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.baskethoyodemanzanares.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-69.png"
+  },
+  {
+    "id": "madrid-70",
+    "name": "Parque Cataluña Torrejón",
+    "logoUrl": "https://api.clupik.com/clubs/26833/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.baskethoyodemanzanares.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-70.png"
+  },
+  {
+    "id": "madrid-71",
+    "name": "Patrocinio San José",
+    "logoUrl": "https://api.clupik.com/clubs/243/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-71.png"
+  },
+  {
+    "id": "madrid-72",
+    "name": "Pilaristas",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6270/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbleganes.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-72.png"
+  },
+  {
+    "id": "madrid-73",
+    "name": "Pintobasket",
+    "logoUrl": "https://api.clupik.com/clubs/224/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.pintobasket.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-73.png"
+  },
+  {
+    "id": "madrid-74",
+    "name": "Prodet Pozuelo CDE",
+    "logoUrl": "https://api.clupik.com/clubs/299/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-74.png"
+  },
+  {
+    "id": "madrid-75",
+    "name": "Pureza de María",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6897/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-75.png"
+  },
+  {
+    "id": "madrid-76",
+    "name": "Real Canoe N.C.",
+    "logoUrl": "https://api.clupik.com/clubs/27/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.pintobasket.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-76.png"
+  },
+  {
+    "id": "madrid-77",
+    "name": "Real Madrid Baloncesto",
+    "logoUrl": "https://storage.googleapis.com/scoutbasketball/teams/images/Real-Madrid_1719335411.png",
+    "alternativeLogoUrl": "",
+    "provider": "Otra fuente pública",
+    "sourceUrl": "https://scoutbasketball.com/competition/spain-acb-supercopa/2025-2026/real-madrid",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-77.png"
+  },
+  {
+    "id": "madrid-78",
+    "name": "San Agustín del Guadalix",
+    "logoUrl": "https://api.clupik.com/clubs/213/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.baskethoyodemanzanares.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-78.png"
+  },
+  {
+    "id": "madrid-79",
+    "name": "San Viator",
+    "logoUrl": "https://api.clupik.com/clubs/251/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-79.png"
+  },
+  {
+    "id": "madrid-80",
+    "name": "Severo Torrejón",
+    "logoUrl": "https://api.clupik.com/clubs/283/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.baskethoyodemanzanares.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-80.png"
+  },
+  {
+    "id": "madrid-81",
+    "name": "UB Torabasket",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/20088/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-81.png"
+  },
+  {
+    "id": "madrid-82",
+    "name": "UB Villalba",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/12680/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.arroyolions.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-82.png"
+  },
+  {
+    "id": "madrid-83",
+    "name": "Uros de Rivas",
+    "logoUrl": "https://api.clupik.com/clubs/67/images/clubTransparent.png",
+    "alternativeLogoUrl": "https://www.fbm.es/imagenes/clubes/18669/logo.jpg",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.urosderivas.com/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-83.png"
+  },
+  {
+    "id": "madrid-84",
+    "name": "Valcude Alcobendas",
+    "logoUrl": "https://api.clupik.com/clubs/222/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.valcudealcobendas.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-84.png"
+  },
+  {
+    "id": "madrid-85",
+    "name": "Vicálvaro Baloncesto CDE",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/21463/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbleganes.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-85.png"
+  },
+  {
+    "id": "madrid-86",
+    "name": "Villanueva de la Cañada",
+    "logoUrl": "https://api.clupik.com/clubs/248/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.adcboadilla.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-86.png"
+  },
+  {
+    "id": "madrid-87",
+    "name": "Villaviciosa de Odón AB",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/6337/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.valcudealcobendas.es/es/competitions/standings",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-87.png"
+  },
+  {
+    "id": "madrid-88",
+    "name": "Virgen de Mirasierra",
+    "logoUrl": "https://www.fbm.es/imagenes/clubes/19450/logo.jpg",
+    "alternativeLogoUrl": "",
+    "provider": "FBM",
+    "sourceUrl": "https://www.cbtrescantos.es/es",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-88.png"
+  },
+  {
+    "id": "madrid-89",
+    "name": "Zentro Basket Madrid",
+    "logoUrl": "https://api.clupik.com/clubs/209/images/clubTransparent.png",
+    "alternativeLogoUrl": "",
+    "provider": "Clupik",
+    "sourceUrl": "https://www.cbzentro.com/es/games/84601/competition",
+    "referenceSeason": "2026-2027 (o fuente histórica indicada)",
+    "logoPath": "/opponents/madrid-89.png"
+  }
+]
