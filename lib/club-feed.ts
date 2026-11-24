@@ -17,7 +17,9 @@ function notify(){for(const listener of listeners)listener();}
 export function loadSections(origin:string,sections:FeedSection[],matchView:MatchView='archive'):Promise<void>{
  const wanted=[...new Set(sections)].sort();const id=origin+'?'+wanted.join(',')+'|'+matchView;
  const running=inFlight.get(id);if(running)return running;
- const work=fetch(origin+'/api/public/club?sections='+wanted.join(',')+(matchView==='recent'?'&matchView=recent':''),{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('Feed unavailable');return r.json();}).then((data:Record<string,unknown>)=>{
+ const demo=process.env.NEXT_PUBLIC_CDIR_DEMO==='true';
+ const request=async()=>{if(demo){try{const saved=localStorage.getItem('cdir-demo-public-feed-v1');if(saved)return JSON.parse(saved);}catch{}const r=await fetch('/cdir-admin-app/demo/public-feed.json');if(!r.ok)throw Error('Demo feed unavailable');return r.json();}const r=await fetch(origin+'/api/public/club?sections='+wanted.join(',')+(matchView==='recent'?'&matchView=recent':''),{cache:'no-cache'});if(!r.ok)throw Error('Feed unavailable');return r.json();};
+ const work=request().then((data:Record<string,unknown>)=>{
   const at=Date.now();for(const section of Object.keys(SECTION_TTL) as FeedSection[])if(Array.isArray(data?.[section]))store.set(key(origin,section,matchView),{value:data[section],at});notify();
  }).finally(()=>inFlight.delete(id));
  inFlight.set(id,work);return work;

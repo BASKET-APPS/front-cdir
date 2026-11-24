@@ -18,5 +18,5 @@ export const metadata: Metadata = {
 };
 export const viewport: Viewport = { themeColor: '#101d2f' };
 export default function RootLayout({ children }: Readonly<{children: React.ReactNode}>) {
-  return <html lang="es"><body><ClubExperience><SiteAnchor className="skip" href="#contenido">Saltar al contenido</SiteAnchor><SiteHeader />{children}<SiteFooter /><Enrollment /><ClubGuide /><CookieConsent /></ClubExperience></body></html>;
+  return <html lang="es"><body><ClubExperience>{process.env.NEXT_PUBLIC_CDIR_DEMO==='true'?<div style={{background:'#00bfd0',color:'#09223d',padding:'8px 20px',textAlign:'center',fontSize:13}}>DEMOSTRACIÓN · Partidos, revistas y actividades con datos ficticios. <a href="https://basket-apps.github.io/cdir-admin-app/">Probar administración ↗</a></div>:null}<SiteAnchor className="skip" href="#contenido">Saltar al contenido</SiteAnchor><SiteHeader />{children}<SiteFooter /><Enrollment /><ClubGuide /><CookieConsent /></ClubExperience></body></html>;
 }

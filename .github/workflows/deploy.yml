@@ -28,14 +28,11 @@ jobs:
           key: ${{ runner.os }}-next-${{ hashFiles('package-lock.json') }}-${{ hashFiles('app/**', 'components/**', 'lib/**', 'data/**', 'next.config.ts') }}
           restore-keys: |
             ${{ runner.os }}-next-${{ hashFiles('package-lock.json') }}-
-      - name: Require deployed HTTPS API
-        env:
-          CDIR_ADMIN_API_URL: ${{ vars.CDIR_ADMIN_API_URL }}
-        run: node scripts/check-deploy-api.cjs
       - run: npm ci
       - run: npm run build
         env:
-          NEXT_PUBLIC_CDIR_API_URL: ${{ vars.CDIR_ADMIN_API_URL }}
+          NEXT_PUBLIC_CDIR_DEMO: 'true'
+          CDIR_BUILD_CPUS: '1'
       - run: npm run test:pages
       - uses: actions/upload-pages-artifact@v3
         with:
